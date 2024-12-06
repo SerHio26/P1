@@ -6,7 +6,7 @@ third = int(input())
 
 if first == second and first == third:
     print("Совпадений: 3")
-elif first == second or first == third:
+elif first == second or first == third or second == third:
     print('Совпадений: 2')
 else:
     print("Совпадений нет")
